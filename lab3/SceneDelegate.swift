@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let windowScene  = UIWindowScene(session: session, connectionOptions: connectionOptions)
                self.window = UIWindow(windowScene: windowScene)
                
-               let rootVC = WalkTroughVC()
+               let rootVC = TableVC()
                self.window?.rootViewController = rootVC
                
                self.window?.makeKeyAndVisible()

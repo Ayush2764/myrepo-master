@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF43441623FC971700AC40DA /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43441523FC971700AC40DA /* TableVC.swift */; };
+		DF43441823FC975E00AC40DA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43441723FC975E00AC40DA /* TableViewCell.swift */; };
 		DFB1B64F23E0F03B00918936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB1B64E23E0F03B00918936 /* AppDelegate.swift */; };
 		DFB1B65123E0F03B00918936 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB1B65023E0F03B00918936 /* SceneDelegate.swift */; };
 		DFB1B65323E0F03B00918936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB1B65223E0F03B00918936 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF43441523FC971700AC40DA /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		DF43441723FC975E00AC40DA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		DFB1B64B23E0F03B00918936 /* lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB1B64E23E0F03B00918936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFB1B65023E0F03B00918936 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,10 +66,12 @@
 				DFB1B65023E0F03B00918936 /* SceneDelegate.swift */,
 				DFCCC64923FC86B200AE1419 /* WalkTroughVC.swift */,
 				DFB1B65223E0F03B00918936 /* ViewController.swift */,
+				DF43441523FC971700AC40DA /* TableVC.swift */,
 				DFB1B65423E0F03B00918936 /* Main.storyboard */,
 				DFB1B65723E0F04100918936 /* Assets.xcassets */,
 				DFB1B65923E0F04100918936 /* LaunchScreen.storyboard */,
 				DFB1B65C23E0F04100918936 /* Info.plist */,
+				DF43441723FC975E00AC40DA /* TableViewCell.swift */,
 			);
 			path = lab3;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 				DFB1B65323E0F03B00918936 /* ViewController.swift in Sources */,
 				DFB1B64F23E0F03B00918936 /* AppDelegate.swift in Sources */,
 				DFCCC64A23FC86B200AE1419 /* WalkTroughVC.swift in Sources */,
+				DF43441823FC975E00AC40DA /* TableViewCell.swift in Sources */,
+				DF43441623FC971700AC40DA /* TableVC.swift in Sources */,
 				DFB1B65123E0F03B00918936 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
